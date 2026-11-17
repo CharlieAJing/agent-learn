@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "AI 总纲",
+      "path": "AI 总纲.md"
+    },
+    {
       "basename": "AGENTS",
       "path": "AGENTS.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "大语言模型",
       "path": "大模型/大语言模型.md"
-    },
-    {
-      "basename": "AI 总纲",
-      "path": "AI 总纲.md"
     },
     {
       "basename": "行业观察",

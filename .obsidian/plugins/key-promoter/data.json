@@ -17,9 +17,13 @@
     "obsidian-excalidraw-plugin:disable-frameclipping": 1,
     "editing-toolbar:editor:clear-formatting": 1,
     "explorer-order-editor:clear-order-for-vault-root": 1,
-    "obsidian-git:pull": 2,
+    "obsidian-git:pull": 3,
     "dataview:dataview-force-refresh-views": 1,
-    "obsidian-git:push2": 1
+    "obsidian-git:push2": 1,
+    "templater-obsidian:insert-templater": 1,
+    "templater-obsidian:replace-in-file-templater": 1,
+    "templater-obsidian:jump-to-next-cursor-location": 1,
+    "templater-obsidian:create-new-note-from-template": 1
   },
   "keyboardStatistics": {}
 }
