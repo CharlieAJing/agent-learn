@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "skills/SKILL.md",
+                "file": "AGENTS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "AGENTS"
             }
           }
         ],
@@ -108,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.23828125
+    "width": 239.03515625
   },
   "right": {
     "id": "068a04b32c36e7a7",
@@ -238,11 +238,13 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "574ed7ce60e83a21",
+  "active": "1b7c65bedee8c2b1",
   "lastOpenFiles": [
+    "skills/SKILL.md",
+    "Agent/工作流与多 Agent.md",
+    "Agent/工具调用.md",
     "AGENTS.md",
     "ai-coding的思考.md",
-    "skills/SKILL.md",
     "skills/references/thinking-principles.md",
     "skills/references/01-questionnaire/ask-design.md",
     "skills/references/note-template.md",
@@ -267,8 +269,6 @@
     "应用/提示词.md",
     "Agent/记忆与上下文.md",
     "Agent/规划与执行.md",
-    "Agent/工作流与多 Agent.md",
-    "Agent/工具调用.md",
     "大模型/大语言模型.md",
     "skills/SKILL_副本.md",
     ".agents/skills",

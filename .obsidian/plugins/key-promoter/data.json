@@ -17,7 +17,9 @@
     "obsidian-excalidraw-plugin:disable-frameclipping": 1,
     "editing-toolbar:editor:clear-formatting": 1,
     "explorer-order-editor:clear-order-for-vault-root": 1,
-    "obsidian-git:pull": 1
+    "obsidian-git:pull": 2,
+    "dataview:dataview-force-refresh-views": 1,
+    "obsidian-git:push2": 1
   },
   "keyboardStatistics": {}
 }
