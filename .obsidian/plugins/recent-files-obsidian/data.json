@@ -1,0 +1,68 @@
+{
+  "recentFiles": [
+    {
+      "basename": "SKILL",
+      "path": "skills/SKILL.md"
+    },
+    {
+      "basename": "提示词",
+      "path": "应用/提示词.md"
+    },
+    {
+      "basename": "记忆与上下文",
+      "path": "Agent/记忆与上下文.md"
+    },
+    {
+      "basename": "规划与执行",
+      "path": "Agent/规划与执行.md"
+    },
+    {
+      "basename": "工作流与多 Agent",
+      "path": "Agent/工作流与多 Agent.md"
+    },
+    {
+      "basename": "工具调用",
+      "path": "Agent/工具调用.md"
+    },
+    {
+      "basename": "大语言模型",
+      "path": "大模型/大语言模型.md"
+    },
+    {
+      "basename": "AI 总纲",
+      "path": "AI 总纲.md"
+    },
+    {
+      "basename": "行业观察",
+      "path": "产品与行业/行业观察.md"
+    },
+    {
+      "basename": "模型与产品比较",
+      "path": "产品与行业/模型与产品比较.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "大模型/Transformer.md"
+    },
+    {
+      "basename": "效果评估",
+      "path": "应用/效果评估.md"
+    },
+    {
+      "basename": "微调与后训练",
+      "path": "大模型/微调与后训练.md"
+    },
+    {
+      "basename": "训练与推理",
+      "path": "大模型/训练与推理.md"
+    },
+    {
+      "basename": "Drawing 2026-10-13 18.23.00.excalidraw",
+      "path": "Excalidraw/Drawing 2026-10-13 18.23.00.excalidraw.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

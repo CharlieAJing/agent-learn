@@ -1,0 +1,280 @@
+{
+  "main": {
+    "id": "57121eaa44a594f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "eafc9422bc42c781",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "788d2cb69aa49b89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "skills/SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
+            }
+          },
+          {
+            "id": "1b7c65bedee8c2b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "skills/SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7cf73ba732a8769",
+    "type": "split",
+    "children": [
+      {
+        "id": "6926e250f8b7fb16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "574ed7ce60e83a21",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "1d171bb0437a3484",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "179b6c1ddd2ca901",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "713d399044a14365",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 239.23828125
+  },
+  "right": {
+    "id": "068a04b32c36e7a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "90117f6641dbbfef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "32df8cd907251195",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "skills/SKILL.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "5e5d76aaba7dd03e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "skills/SKILL.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "53d4579ce85b9707",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e9902980968b1981",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "33ad6c903cc87427",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "skills/SKILL.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "868f62dfc00f5dc2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "64b8fcd39b660c99",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 397.73828125
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "workspaces:管理工作区布局": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "574ed7ce60e83a21",
+  "lastOpenFiles": [
+    "AGENTS.md",
+    "ai-coding的思考.md",
+    "skills/SKILL.md",
+    "skills/references/thinking-principles.md",
+    "skills/references/01-questionnaire/ask-design.md",
+    "skills/references/note-template.md",
+    "skills/references/interaction.md",
+    "skills/references/note-structure.md",
+    "skills/references/research.md",
+    "skills/references/shared/research.md",
+    "skills/references/shared/note-structure.md",
+    "skills/references/shared",
+    "skills/references/03-review/review-and-polish.md",
+    "skills/references/03-review",
+    "skills/references/02-drafting/dialogue.md",
+    "skills/references/02-drafting/autonomous-answering.md",
+    "skills/references/02-drafting",
+    "skills/references/01-questionnaire/questionnaire.md",
+    "skills/references/01-questionnaire",
+    "skills/references/autonomous-answering.md",
+    "skills/references/dialogue.md",
+    "skills/references/review-and-polish.md",
+    "skills/references/questionnaire.md",
+    "skills/references",
+    "应用/提示词.md",
+    "Agent/记忆与上下文.md",
+    "Agent/规划与执行.md",
+    "Agent/工作流与多 Agent.md",
+    "Agent/工具调用.md",
+    "大模型/大语言模型.md",
+    "skills/SKILL_副本.md",
+    ".agents/skills",
+    ".agents",
+    ".process/Agent",
+    ".process",
+    "skills/write-concept-note/agents/openai.yaml"
+  ]
+}

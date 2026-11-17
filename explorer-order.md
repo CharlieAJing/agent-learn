@@ -1,0 +1,9 @@
+This note is maintained by the Explorer Order Editor plugin. It stores the manual sort order for folders in this vault; the block below is machine-generated.
+
+```json
+{
+  "/": ["AI 总纲.md","大模型","Agent","应用","产品与行业","附件","AI.xmind","skills"],
+  "skills": ["SKILL.md"],
+  "大模型": ["大语言模型.md","微调与后训练.md","训练与推理.md","Transformer.md"]
+}
+```

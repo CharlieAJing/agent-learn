@@ -1,0 +1,23 @@
+{
+  "showUnassigned": true,
+  "showAssigned": true,
+  "threshold": 0,
+  "notificationTimeout": 5,
+  "template": "`{{commandId}}` - {{commandName}} - `{{hotkey}}`\n",
+  "descriptionOfActions": false,
+  "mouseStatistics": {
+    "workspace:close": 1,
+    "workspace:close-window": 1,
+    "workspace:close-others": 1,
+    "workspace:close-tab-group": 1,
+    "workspace:close-others-tab-group": 1,
+    "editor:toggle-spellcheck": 1,
+    "obsidian-excalidraw-plugin:disable-binding": 1,
+    "obsidian-excalidraw-plugin:disable-framerendering": 1,
+    "obsidian-excalidraw-plugin:disable-frameclipping": 1,
+    "editing-toolbar:editor:clear-formatting": 1,
+    "explorer-order-editor:clear-order-for-vault-root": 1,
+    "obsidian-git:pull": 1
+  },
+  "keyboardStatistics": {}
+}
