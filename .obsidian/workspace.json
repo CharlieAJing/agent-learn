@@ -220,7 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 541.9296875
+    "width": 443.93359375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +238,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "64b8fcd39b660c99",
+  "active": "1b7c65bedee8c2b1",
   "lastOpenFiles": [
+    "skills/references/learning-design.md",
     "Excalidraw/Drawing 2026-11-18 00.40.47.excalidraw.md",
     "Excalidraw/Drawing 2026-11-18 00.40.58.excalidraw.md",
     "AI 总纲.md",
@@ -271,7 +272,6 @@
     "skills/references/questionnaire.md",
     "skills/references",
     "应用/提示词.md",
-    "Agent/记忆与上下文.md",
     ".agents/skills",
     ".agents",
     ".process/Agent",
