@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "skills/references/02-drafting/autonomous-answering.md",
+                "file": "skills/references/research.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "autonomous-answering"
+              "title": "research"
             }
           }
         ],
@@ -238,10 +238,11 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "64b8fcd39b660c99",
+  "active": "1b7c65bedee8c2b1",
   "lastOpenFiles": [
-    "skills/SKILL.md",
+    "skills/references/01-questionnaire/questionnaire.md",
     "skills/references/02-drafting/autonomous-answering.md",
+    "skills/SKILL.md",
     "skills/references/thinking-principles.md",
     "skills/references/research.md",
     "skills/references/learning-design.md",
@@ -266,7 +267,6 @@
     "skills/references/03-review",
     "skills/references/02-drafting/dialogue.md",
     "skills/references/02-drafting",
-    "skills/references/01-questionnaire/questionnaire.md",
     "skills/references/01-questionnaire",
     "skills/references/autonomous-answering.md",
     "skills/references/dialogue.md",

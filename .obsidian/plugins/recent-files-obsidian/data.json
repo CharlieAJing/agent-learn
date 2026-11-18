@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "research",
+      "path": "skills/references/research.md"
+    },
+    {
+      "basename": "questionnaire",
+      "path": "skills/references/01-questionnaire/questionnaire.md"
+    },
+    {
       "basename": "autonomous-answering",
       "path": "skills/references/02-drafting/autonomous-answering.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "thinking-principles",
       "path": "skills/references/thinking-principles.md"
-    },
-    {
-      "basename": "research",
-      "path": "skills/references/research.md"
     },
     {
       "basename": "learning-design",
