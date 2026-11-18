@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agent/记忆与上下文.md",
+                "file": "skills/references/02-drafting/autonomous-answering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "记忆与上下文"
+              "title": "autonomous-answering"
             }
           }
         ],
@@ -220,7 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.93359375
+    "width": 234.3125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,37 +240,37 @@
   },
   "active": "1b7c65bedee8c2b1",
   "lastOpenFiles": [
+    "skills/SKILL.md",
+    "skills/references/02-drafting/autonomous-answering.md",
+    "skills/references/thinking-principles.md",
+    "skills/references/research.md",
+    "skills/references/learning-design.md",
+    "skills/references/interaction.md",
+    "Agent/记忆与上下文.md",
     "Agent/规划与执行.md",
     "Agent/工具调用.md",
     "Agent/工作流与多 Agent.md",
     "AI 总纲.md",
-    "skills/references/learning-design.md",
     "Excalidraw/Drawing 2026-11-18 00.40.47.excalidraw.md",
     "Excalidraw/Drawing 2026-11-18 00.40.58.excalidraw.md",
     "Excalidraw",
     "AGENTS.md",
-    "skills/SKILL.md",
     "ai-coding的思考.md",
-    "skills/references/thinking-principles.md",
     "skills/references/01-questionnaire/ask-design.md",
     "skills/references/note-template.md",
-    "skills/references/interaction.md",
     "skills/references/note-structure.md",
-    "skills/references/research.md",
     "skills/references/shared/research.md",
     "skills/references/shared/note-structure.md",
     "skills/references/shared",
     "skills/references/03-review/review-and-polish.md",
     "skills/references/03-review",
     "skills/references/02-drafting/dialogue.md",
-    "skills/references/02-drafting/autonomous-answering.md",
     "skills/references/02-drafting",
     "skills/references/01-questionnaire/questionnaire.md",
     "skills/references/01-questionnaire",
     "skills/references/autonomous-answering.md",
     "skills/references/dialogue.md",
     "skills/references/review-and-polish.md",
-    "skills/references/questionnaire.md",
     "skills/references",
     ".agents/skills",
     ".agents",

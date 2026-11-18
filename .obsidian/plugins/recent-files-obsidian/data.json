@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "autonomous-answering",
+      "path": "skills/references/02-drafting/autonomous-answering.md"
+    },
+    {
+      "basename": "SKILL",
+      "path": "skills/SKILL.md"
+    },
+    {
+      "basename": "thinking-principles",
+      "path": "skills/references/thinking-principles.md"
+    },
+    {
+      "basename": "research",
+      "path": "skills/references/research.md"
+    },
+    {
+      "basename": "learning-design",
+      "path": "skills/references/learning-design.md"
+    },
+    {
+      "basename": "interaction",
+      "path": "skills/references/interaction.md"
+    },
+    {
       "basename": "记忆与上下文",
       "path": "Agent/记忆与上下文.md"
     },
@@ -23,10 +47,6 @@
     {
       "basename": "AGENTS",
       "path": "AGENTS.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "skills/SKILL.md"
     },
     {
       "basename": "提示词",
