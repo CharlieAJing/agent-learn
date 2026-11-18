@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI 总纲.md",
+                "file": "Agent/记忆与上下文.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI 总纲"
+              "title": "记忆与上下文"
             }
           }
         ],
@@ -240,15 +240,16 @@
   },
   "active": "1b7c65bedee8c2b1",
   "lastOpenFiles": [
+    "Agent/规划与执行.md",
+    "Agent/工具调用.md",
+    "Agent/工作流与多 Agent.md",
+    "AI 总纲.md",
     "skills/references/learning-design.md",
     "Excalidraw/Drawing 2026-11-18 00.40.47.excalidraw.md",
     "Excalidraw/Drawing 2026-11-18 00.40.58.excalidraw.md",
-    "AI 总纲.md",
     "Excalidraw",
-    "Agent/工具调用.md",
     "AGENTS.md",
     "skills/SKILL.md",
-    "Agent/工作流与多 Agent.md",
     "ai-coding的思考.md",
     "skills/references/thinking-principles.md",
     "skills/references/01-questionnaire/ask-design.md",
@@ -271,7 +272,6 @@
     "skills/references/review-and-polish.md",
     "skills/references/questionnaire.md",
     "skills/references",
-    "应用/提示词.md",
     ".agents/skills",
     ".agents",
     ".process/Agent",
