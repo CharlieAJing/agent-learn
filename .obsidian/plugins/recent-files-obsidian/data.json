@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SKILL",
+      "path": "skills/SKILL.md"
+    },
+    {
       "basename": "research",
       "path": "skills/references/research.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "autonomous-answering",
       "path": "skills/references/02-drafting/autonomous-answering.md"
-    },
-    {
-      "basename": "SKILL",
-      "path": "skills/SKILL.md"
     },
     {
       "basename": "thinking-principles",
