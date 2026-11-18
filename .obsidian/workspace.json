@@ -220,7 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.3125
+    "width": 352.20703125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,7 +238,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "1b7c65bedee8c2b1",
+  "active": "64b8fcd39b660c99",
   "lastOpenFiles": [
     "skills/SKILL.md",
     "skills/references/02-drafting/autonomous-answering.md",
