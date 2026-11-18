@@ -13,7 +13,7 @@ metadata:
 
 | 模式与指南 | 何时使用 |
 | --- | --- |
-| [提纲](references/01-questionnaire/questionnaire.md) | 规划学习内容，生成附学习资料与参考答案的问卷 |
+| [提纲](references/01-questionnaire/questionnaire.md) | 规划学习内容，生成附资料与答案的问卷 |
 | [问答](references/02-drafting/dialogue.md) | 边讨论，边将结论补入笔记 |
 | [生成稿件](references/02-drafting/autonomous-answering.md) | 将问卷答案、相关资料与已有正文整理成稿 |
 | [审稿与润色](references/03-review/review-and-polish.md) | 审阅已有文章，提出优化项，确认后修改 |
