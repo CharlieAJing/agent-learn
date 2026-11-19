@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -240,7 +240,7 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c470b12a5bdc28a8",
+  "active": "64b8fcd39b660c99",
   "lastOpenFiles": [
     "skills/references/material-generation.md",
     "应用/RAG.md",
