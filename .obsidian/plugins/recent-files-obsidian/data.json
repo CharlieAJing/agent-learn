@@ -1,36 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "RAG",
+      "path": "应用/RAG.md"
+    },
+    {
+      "basename": "material-generation",
+      "path": "skills/references/material-generation.md"
+    },
+    {
+      "basename": "RAG 资料底稿",
+      "path": "应用/RAG 资料底稿.md"
+    },
+    {
       "basename": "SKILL",
       "path": "skills/SKILL.md"
+    },
+    {
+      "basename": "记忆与上下文",
+      "path": "Agent/记忆与上下文.md"
     },
     {
       "basename": "research",
       "path": "skills/references/research.md"
     },
     {
-      "basename": "questionnaire",
-      "path": "skills/references/01-questionnaire/questionnaire.md"
-    },
-    {
-      "basename": "autonomous-answering",
-      "path": "skills/references/02-drafting/autonomous-answering.md"
-    },
-    {
       "basename": "thinking-principles",
       "path": "skills/references/thinking-principles.md"
     },
     {
-      "basename": "learning-design",
-      "path": "skills/references/learning-design.md"
-    },
-    {
       "basename": "interaction",
       "path": "skills/references/interaction.md"
-    },
-    {
-      "basename": "记忆与上下文",
-      "path": "Agent/记忆与上下文.md"
     },
     {
       "basename": "规划与执行",
