@@ -154,10 +154,10 @@
     "quickadd:resumePrompt": 1,
     "quickadd:runTemplateFromFolder": 1,
     "quickadd:reloadQuickAdd": 1,
-    "obsidian-tasks-plugin:edit-task": 1,
-    "obsidian-tasks-plugin:quick-search": 1,
-    "obsidian-tasks-plugin:add-query-file-defaults-properties": 1,
-    "obsidian-tasks-plugin:set-status-symbol-to-/": 1,
+    "obsidian-tasks-plugin:edit-task": 2,
+    "obsidian-tasks-plugin:quick-search": 2,
+    "obsidian-tasks-plugin:add-query-file-defaults-properties": 2,
+    "obsidian-tasks-plugin:set-status-symbol-to-/": 2,
     "dataview:dataview-drop-cache": 1,
     "dataview:dataview-rebuild-current-view": 1,
     "obsidian-git:edit-gitignore": 1,
@@ -272,7 +272,11 @@
     "obsidian-excalidraw-plugin:convert-to-excalidraw": 1,
     "obsidian-excalidraw-plugin:convert-excalidraw": 1,
     "obsidian-plantuml:clear-cache": 1,
-    "editor:table-row-after": 1
+    "editor:table-row-after": 1,
+    "obsidian-tasks-plugin:toggle-done": 1,
+    "obsidian-tasks-plugin:set-status-symbol-to-space": 1,
+    "obsidian-tasks-plugin:set-status-symbol-to-x": 1,
+    "obsidian-tasks-plugin:set-status-symbol-to--": 1
   },
   "keyboardStatistics": {
     "markdown:toggle-preview": 3,
