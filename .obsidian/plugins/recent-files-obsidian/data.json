@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Agent Harness 工程",
+      "path": "Agent/Agent Harness 工程.md"
+    },
+    {
+      "basename": "规划与执行",
+      "path": "Agent/规划与执行.md"
+    },
+    {
       "basename": "训练与推理",
       "path": "大模型/训练与推理.md"
     },

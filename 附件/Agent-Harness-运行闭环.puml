@@ -1,0 +1,39 @@
+@startuml
+skinparam defaultFontName "PingFang SC"
+skinparam defaultFontSize 15
+skinparam backgroundColor #FFFFFF
+skinparam activityBackgroundColor #EEF4F8
+skinparam activityBorderColor #456477
+skinparam ArrowColor #456477
+start
+:开始;
+:① 建立任务约定;
+repeat
+:② 恢复状态并组装输入;
+:③ 模型提出下一步请求;
+if (需要执行动作？) then (是)
+  :④ 检查参数、权限与预算;
+  if (允许执行？) then (是)
+    :⑤ 执行、回读并记录;
+  else (否)
+    :记录拒绝、暂停或预算原因;
+  endif
+else (否)
+  :记录完成声明或信息请求;
+endif
+:⑥ 验收当前结果;
+if (已达标？) then (是)
+  :交付结果与证据;
+  :结束;
+  stop
+else (否)
+endif
+repeat while (未达标且仍可推进？) is (是) not (否)
+if (等待必要输入或授权？) then (是)
+  :保存状态并暂停\n恢复时从②重新检查;
+else (否)
+  :交付当前结果与未完成项\n无法验收时标记结果未确认;
+endif
+:本轮结束;
+stop
+@enduml
