@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "大语言模型",
-      "path": "大模型/大语言模型.md"
-    },
-    {
       "basename": "AI 总纲",
       "path": "AI 总纲.md"
     },
     {
+      "basename": "LLM",
+      "path": "大模型/LLM.md"
+    },
+    {
       "basename": "RAG",
       "path": "应用/RAG.md"
+    },
+    {
+      "basename": "Agent",
+      "path": "Agent/Agent.md"
     },
     {
       "basename": "material-generation",
