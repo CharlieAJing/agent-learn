@@ -17,9 +17,9 @@
     "obsidian-excalidraw-plugin:disable-frameclipping": 6,
     "editing-toolbar:editor:clear-formatting": 2,
     "explorer-order-editor:clear-order-for-vault-root": 2,
-    "obsidian-git:pull": 3,
+    "obsidian-git:pull": 4,
     "dataview:dataview-force-refresh-views": 2,
-    "obsidian-git:push2": 12,
+    "obsidian-git:push2": 15,
     "templater-obsidian:insert-templater": 3,
     "templater-obsidian:replace-in-file-templater": 3,
     "templater-obsidian:jump-to-next-cursor-location": 3,
@@ -280,6 +280,7 @@
   },
   "keyboardStatistics": {
     "markdown:toggle-preview": 3,
-    "editing-toolbar:toggle-highlight": 2
+    "editing-toolbar:toggle-highlight": 2,
+    "obsidian-git:push2": 1
   }
 }
