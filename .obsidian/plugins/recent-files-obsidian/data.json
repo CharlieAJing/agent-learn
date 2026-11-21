@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "训练与推理",
+      "path": "大模型/训练与推理.md"
+    },
+    {
+      "basename": "LLM",
+      "path": "大模型/LLM.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "大模型/Transformer.md"
+    },
+    {
       "basename": "工具调用",
       "path": "Agent/工具调用.md"
+    },
+    {
+      "basename": "后训练",
+      "path": "大模型/后训练.md"
     },
     {
       "basename": "上下文工程",
@@ -15,18 +31,6 @@
     {
       "basename": "Agent",
       "path": "Agent/Agent.md"
-    },
-    {
-      "basename": "训练与推理",
-      "path": "大模型/训练与推理.md"
-    },
-    {
-      "basename": "LLM",
-      "path": "大模型/LLM.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "大模型/Transformer.md"
     },
     {
       "basename": "Evaluation",
