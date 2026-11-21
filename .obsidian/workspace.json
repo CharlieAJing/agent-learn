@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "c470b12a5bdc28a8",
+            "id": "0d97207f86cf4aa0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "应用/RAG.md",
+                "file": "大模型/大语言模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RAG"
+              "title": "大语言模型"
             }
           }
         ],
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.03515625
+    "width": 340.22265625
   },
   "right": {
     "id": "068a04b32c36e7a7",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "应用/RAG.md",
+                "file": "大模型/大语言模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -242,41 +242,42 @@
   },
   "active": "64b8fcd39b660c99",
   "lastOpenFiles": [
-    "skills/references/material-generation.md",
+    "AI 总纲.md",
+    "产品与行业/模型与产品比较.md",
+    "产品与行业/行业观察.md",
     "应用/RAG.md",
-    "应用/RAG 资料底稿.md",
+    "应用/效果评估.md",
+    "应用/提示词.md",
+    "Agent/工具调用.md",
+    "Agent/记忆与上下文.md",
+    "Agent/规划与执行.md",
+    "Agent/工作流与多 Agent.md",
     "大模型/微调与后训练.md",
-    "skills/SKILL.md",
+    "大模型/Transformer.md",
     "大模型/大语言模型.md",
+    "skills/references/material-generation.md",
+    "skills/references/capability-model-and-mechanisms.md",
     "skills/references/dialogue.md",
+    "skills/SKILL.md",
+    "应用/RAG_deprecate.md",
+    "skills/scripts/check_review_thresholds.py",
+    "skills/review-samples.md",
+    "附件/Anthropic - RAG 混合检索架构.webp",
+    "skills/references/interaction.md",
     "skills/references/review.md",
+    "应用/RAG 资料底稿.md",
+    "skills/scripts/format_table.py",
+    "skills/scripts",
     "Excalidraw/Drawing 2026-11-18 21.09.11.excalidraw.md",
     "Excalidraw",
     "2026-11-18.md",
-    "Agent/记忆与上下文.md",
     "skills/references/leanring-design-bak.md",
     "skills/references/01-outline",
     "skills/references/research.md",
-    "skills/references/01-outline/outline.md",
-    "skills/references/thinking-principles.md",
-    "skills/references/learning-design.md",
-    "skills/references/interaction.md",
-    "Agent/规划与执行.md",
-    "Agent/工具调用.md",
-    "Agent/工作流与多 Agent.md",
-    "AI 总纲.md",
-    "Excalidraw/Drawing 2026-11-18 00.40.47.excalidraw.md",
-    "Excalidraw/Drawing 2026-11-18 00.40.58.excalidraw.md",
-    "AGENTS.md",
-    "ai-coding的思考.md",
-    "skills/references/01-questionnaire/ask-design.md",
     "skills/references/shared",
     "skills/references/03-review",
     "skills/references/02-drafting",
     "skills/references/01-questionnaire",
-    "skills/references",
-    ".agents/skills",
-    ".agents",
-    ".process/Agent"
+    "skills/references"
   ]
 }

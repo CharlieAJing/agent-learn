@@ -1,3 +1,3 @@
 {
-  "indexBackup": "This note is maintained by the Explorer Order Editor plugin. It stores the manual sort order for folders in this vault; the block below is machine-generated.\n\n```json\n{\n  \"/\": [\"AI 总纲.md\",\"大模型\",\"Agent\",\"应用\",\"产品与行业\",\"附件\",\"skills\"],\n  \"skills\": [\"SKILL.md\"],\n  \"大模型\": [\"大语言模型.md\",\"微调与后训练.md\",\"训练与推理.md\",\"Transformer.md\"]\n}\n```\n"
+  "indexBackup": "This note is maintained by the Explorer Order Editor plugin. It stores the manual sort order for folders in this vault; the block below is machine-generated.\n\n```json\n{\n  \"/\": [\"AI 总纲.md\",\"大模型\",\"Agent\",\"应用\",\"产品与行业\",\"附件\",\"skills\"],\n  \"skills\": [\"SKILL.md\"]\n}\n```\n"
 }
