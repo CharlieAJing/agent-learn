@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "AI 总纲",
-      "path": "AI 总纲.md"
+      "basename": "Evaluation",
+      "path": "应用/Evaluation.md"
+    },
+    {
+      "basename": "训练与推理",
+      "path": "大模型/训练与推理.md"
     },
     {
       "basename": "LLM",
       "path": "大模型/LLM.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "大模型/Transformer.md"
+    },
+    {
+      "basename": "提示词",
+      "path": "应用/提示词.md"
     },
     {
       "basename": "RAG",
@@ -15,6 +27,10 @@
     {
       "basename": "Agent",
       "path": "Agent/Agent.md"
+    },
+    {
+      "basename": "AI 总纲",
+      "path": "AI 总纲.md"
     },
     {
       "basename": "material-generation",
