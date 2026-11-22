@@ -1,0 +1,16 @@
+@startuml
+skinparam backgroundColor transparent
+skinparam shadowing false
+start
+:① 定义任务、成功标准与约束;
+:② 建立题集、证据标注与隔离划分;
+:③ 固定版本，运行基线并保存轨迹;
+:④ 分层评分，定位失败并提出干预;
+:⑤ 同题对照，检查收益、不确定性与代价;
+if (达到预定验收条件？) then (是)
+  :⑥ 小范围发布、回归与反馈采样;
+else (否)
+  :保留基线，登记未解决问题;
+endif
+stop
+@enduml

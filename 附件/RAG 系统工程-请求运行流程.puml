@@ -1,0 +1,32 @@
+@startuml
+skinparam defaultFontName PingFang SC
+skinparam shadowing false
+skinparam activityBackgroundColor #EEF3F6
+skinparam activityBorderColor #526B80
+start
+:开始;
+:① 验证身份与准入\n建立时间和资源约束;
+if (允许执行？) then (是)
+  :② 固定版本并校验缓存;
+  if (缓存当前可用？) then (是)
+    :缓存结果进入最终检查;
+  else (否)
+    :③ 在授权范围取得证据\n错误进入有界恢复;
+    if (恢复后可继续生成？) then (是)
+      :④ 组织输入并生成\n错误进入有界恢复;
+    note right
+      恢复受截止时间与次数限制
+      结束后提交已有结果或错误
+    end note
+    else (否)
+      :提交无证据状态或错误;
+    endif
+  endif
+  :⑤ 检查结果并确定终态;
+else (否)
+  :确定拒绝原因;
+endif
+:⑥ 交付允许内容并记录终态;
+:结束;
+stop
+@enduml

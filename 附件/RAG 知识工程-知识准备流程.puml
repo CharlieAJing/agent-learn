@@ -1,0 +1,25 @@
+@startuml
+skinparam backgroundColor #FFFFFF
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+start
+:开始;
+:① 登记来源与版本\n保存原始快照、权限和变更类型;
+if (删除或撤权？) then (是)
+  :立即阻断访问\n进入⑥传播失效与核对;
+else (否)
+  :② 解析与清洗\n保留结构、位置和处理记录;
+  :③ 切分与绑定来源\n形成正文、上下文及片段清单;
+  :④ 建立检索表示与索引\n记录兼容配置和批次;
+  :⑤ 验收并发布\n检查完整性、版本与权限;
+  if (验收通过？) then (是)
+    :切换到已验收批次;
+  else (否)
+    :隔离失败批次\n保留仍有效旧版或暂停供给;
+  endif
+endif
+:⑥ 同步失效与对账\n核对旧片段、索引和缓存状态;
+:结束;
+stop
+@enduml

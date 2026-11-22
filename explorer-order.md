@@ -2,7 +2,12 @@ This note is maintained by the Explorer Order Editor plugin. It stores the manua
 
 ```json
 {
-  "/": ["AI 总纲.md","大模型","Agent","应用","产品与行业","附件","skills"],
-  "skills": ["SKILL.md"]
+  "/": ["AI 总纲.md","模型原理","上下文与知识工程","智能体系统","评估方法","附件","skills"],
+  "skills": ["SKILL.md"],
+  "上下文与知识工程": ["提示词.md","上下文工程.md","RAG","LLM Wiki.md"],
+  "上下文与知识工程/RAG": ["RAG.md","RAG 知识工程.md","RAG 检索工程.md","RAG 证据组织与回答生成.md","RAG 系统工程.md","RAG 评估与优化.md"],
+  "智能体系统": ["Agent.md","规划与执行.md","工具调用.md","Agent Memory.md","Agent Harness 工程.md"],
+  "模型原理": ["LLM.md","Transformer.md","训练与推理.md","后训练.md"],
+  "评估方法": ["Evaluation.md"]
 }
 ```

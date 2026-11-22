@@ -1,0 +1,29 @@
+@startuml
+skinparam backgroundColor #FAFAF8
+skinparam defaultFontName "PingFang SC"
+skinparam defaultFontSize 17
+skinparam activity {
+ BackgroundColor #EDF2EF
+ BorderColor #536B60
+ FontColor #172D23
+ DiamondBackgroundColor #FFF1D9
+ DiamondBorderColor #A58B56
+}
+title RAG 检索工程：从问题到有序候选
+start
+:① 识别需求、指代与约束;
+if (影响范围的歧义已解决？) then (是)
+else (否)
+ :交付需澄清状态;
+ stop
+endif
+repeat
+ :② 制定查询与路由;
+ :③ 在合法范围召回并累计候选;
+ :④ 融合、重排与按上限截取;
+ :⑤ 核查覆盖、缺口与新增证据;
+ :⑥ 记录覆盖判断，检查停止条件与预算;
+repeat while (仍有可处理缺口且有新线索、预算允许？) is (是) not (否)
+:交付有序候选、缺口与停止原因;
+stop
+@enduml

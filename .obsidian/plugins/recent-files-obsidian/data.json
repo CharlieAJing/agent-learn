@@ -1,60 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "Agent Harness 工程",
-      "path": "Agent/Agent Harness 工程.md"
-    },
-    {
-      "basename": "规划与执行",
-      "path": "Agent/规划与执行.md"
-    },
-    {
-      "basename": "训练与推理",
-      "path": "大模型/训练与推理.md"
-    },
-    {
-      "basename": "LLM",
-      "path": "大模型/LLM.md"
-    },
-    {
-      "basename": "Transformer",
-      "path": "大模型/Transformer.md"
-    },
-    {
-      "basename": "工具调用",
-      "path": "Agent/工具调用.md"
-    },
-    {
-      "basename": "后训练",
-      "path": "大模型/后训练.md"
-    },
-    {
-      "basename": "上下文工程",
-      "path": "应用/上下文工程.md"
-    },
-    {
-      "basename": "Agent Memory",
-      "path": "Agent/Agent Memory.md"
-    },
-    {
-      "basename": "Agent",
-      "path": "Agent/Agent.md"
-    },
-    {
-      "basename": "Evaluation",
-      "path": "应用/Evaluation.md"
-    },
-    {
-      "basename": "提示词",
-      "path": "应用/提示词.md"
+      "basename": "概率与统计基础",
+      "path": "模型原理/概率与统计基础.md"
     },
     {
       "basename": "RAG",
-      "path": "应用/RAG.md"
+      "path": "上下文与知识工程/RAG/RAG.md"
+    },
+    {
+      "basename": "RAG 知识工程",
+      "path": "上下文与知识工程/RAG/RAG 知识工程.md"
+    },
+    {
+      "basename": "上下文工程",
+      "path": "上下文与知识工程/上下文工程.md"
+    },
+    {
+      "basename": "提示词",
+      "path": "上下文与知识工程/提示词.md"
+    },
+    {
+      "basename": "训练与推理",
+      "path": "模型原理/训练与推理.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
+      "basename": "LLM Wiki",
+      "path": "上下文与知识工程/LLM Wiki.md"
     },
     {
       "basename": "AI 总纲",
       "path": "AI 总纲.md"
+    },
+    {
+      "basename": "Agent Memory",
+      "path": "智能体系统/Agent Memory.md"
+    },
+    {
+      "basename": "Agent Harness 工程",
+      "path": "智能体系统/Agent Harness 工程.md"
+    },
+    {
+      "basename": "Agent",
+      "path": "智能体系统/Agent.md"
+    },
+    {
+      "basename": "规划与执行",
+      "path": "智能体系统/规划与执行.md"
+    },
+    {
+      "basename": "工具调用",
+      "path": "智能体系统/工具调用.md"
+    },
+    {
+      "basename": "RAG 证据组织与回答生成",
+      "path": "上下文与知识工程/RAG/RAG 证据组织与回答生成.md"
+    },
+    {
+      "basename": "RAG 系统工程",
+      "path": "上下文与知识工程/RAG/RAG 系统工程.md"
+    },
+    {
+      "basename": "RAG 评估与优化",
+      "path": "上下文与知识工程/RAG/RAG 评估与优化.md"
+    },
+    {
+      "basename": "RAG 检索工程",
+      "path": "上下文与知识工程/RAG/RAG 检索工程.md"
+    },
+    {
+      "basename": "Evaluation",
+      "path": "评估方法/Evaluation.md"
+    },
+    {
+      "basename": "后训练",
+      "path": "模型原理/后训练.md"
+    },
+    {
+      "basename": "LLM",
+      "path": "模型原理/LLM.md"
+    },
+    {
+      "basename": "Transformer",
+      "path": "模型原理/Transformer.md"
     },
     {
       "basename": "material-generation",
@@ -79,10 +111,6 @@
     {
       "basename": "thinking-principles",
       "path": "skills/references/thinking-principles.md"
-    },
-    {
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
     },
     {
       "basename": "Drawing 2026-10-13 18.23.00.excalidraw",
