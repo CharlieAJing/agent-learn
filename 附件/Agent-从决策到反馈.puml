@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName "PingFang SC"
+skinparam defaultFontSize 15
+skinparam dpi 145
+skinparam shadowing false
+skinparam BackgroundColor white
+skinparam ArrowColor #516576
+skinparam stateBorderColor #9AABB9
+skinparam stateBackgroundColor #F7F9FA
+hide empty description
+state "① 构建上下文" as Context
+state "② 模型决定下一步" as Decide #E7F2FC
+state "③ 调用工具" as Act
+state "④ 观察结果" as Observe
+state "⑤ 交付结果或报告进展" as Output #EAF5EF
+[*] --> Context : 收到任务
+Context --> Decide
+Decide --> Act : 需要行动
+Act --> Observe
+Observe -left-> Decide : 反馈加入上下文\n可继续
+Decide --> Output : 可作答或无法推进
+Observe --> Output : 达到运行上限
+Output --> [*]
+@enduml
