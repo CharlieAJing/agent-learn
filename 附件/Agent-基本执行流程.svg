@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="810" viewBox="0 0 960 810" role="img" aria-labelledby="title desc">
+  <title id="title">Agent 执行过程</title>
+  <desc id="desc">用户输入或系统事件触发任务。运行程序构建上下文，模型对照目标和约束决定直接作答、请求用户澄清或调用工具。用户补充的信息进入上下文。工具结果连同原请求也进入上下文，供模型重新决策。目标达成时交付结果，无法推进或达到上限时报告进展。</desc>
+  <defs>
+    <style>
+      text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;text-anchor:middle}
+      .h{font-size:22px;font-weight:600;fill:#15232e}.p{font-size:17px;fill:#485662}
+      .tag{font-size:16px;fill:#4d5963}.back{fill:#275ea8;font-size:16px}
+      .line,.loop{fill:none;stroke:#697788;stroke-width:1.8;stroke-linejoin:round}
+      .loop{stroke:#356dc0}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="958" height="808" rx="22" fill="#fff" stroke="#e1e5e8"/>
+  <rect x="32" y="22" width="896" height="108" rx="15" fill="#f4f5f6"/>
+  <text x="480" y="57" class="h">① 用户输入 / 系统触发</text>
+  <text x="480" y="85" class="p">接收任务，明确目标和约束</text>
+  <text x="480" y="111" class="p">约束涉及范围、权限和资源，区分硬约束与软偏好</text>
+  <path d="M480 130V166" class="line"/>
+  <rect x="233" y="168" width="494" height="114" rx="15" fill="white" stroke="#cfd7df"/>
+  <text x="480" y="202" class="h">② 构建上下文</text>
+  <text x="480" y="234" class="p">系统指令 · 当前任务 · 相关历史消息</text>
+  <text x="480" y="260" class="p">工具调用与结果 · 取回的记忆 · 可用工具说明</text>
+  <path d="M480 282V326" class="line"/>
+  <rect x="259" y="328" width="442" height="104" rx="15" fill="#edf4ff" stroke="#c9dbf4"/>
+  <text x="480" y="364" class="h">③ LLM 推理与决策</text>
+  <text x="480" y="395" class="p">对照目标、约束和已有证据，判断还缺什么</text>
+  <text x="480" y="419" class="p">决定作答、提问，或选择工具并生成参数</text>
+  <rect x="22" y="343" width="188" height="76" rx="13" fill="#f7faff" stroke="#c9dbf4"/>
+  <text x="116" y="374" class="p" font-weight="600">请求用户澄清</text>
+  <text x="116" y="400" class="tag">信息须由用户补充</text>
+  <path d="M259 380H212" class="line"/>
+  <path d="M116 343V227H231" class="loop"/>
+  <text x="114" y="212" class="back">用户补充信息</text>
+  <path d="M344 432V533" class="line"/>
+  <text x="255" y="482" class="tag">需要查询或操作</text>
+  <rect x="182" y="535" width="258" height="102" rx="15" fill="#fff" stroke="#cfd7df"/>
+  <text x="311" y="571" class="h">④ 调用工具</text>
+  <text x="311" y="600" class="p">运行程序检查权限</text>
+  <text x="311" y="625" class="p">获准后交给工具执行</text>
+  <path d="M440 585H494" class="line"/>
+  <rect x="496" y="535" width="277" height="102" rx="15" fill="#fff" stroke="#cfd7df"/>
+  <text x="635" y="571" class="h">⑤ 观察结果</text>
+  <text x="635" y="600" class="p">将数据、状态或错误</text>
+  <text x="635" y="625" class="p">与原请求一起加入上下文</text>
+  <path d="M634 535V434" class="loop"/>
+  <text x="530" y="477" class="back">仍可继续</text>
+  <text x="530" y="502" class="back">带着反馈重新决策</text>
+  <path d="M701 380H877V752H818" class="line"/>
+  <text x="804" y="365" class="tag">依据充分，可直接作答</text>
+  <path d="M635 637V705" class="line"/>
+  <text x="500" y="680" class="tag">无法推进或达到运行上限</text>
+  <rect x="144" y="707" width="672" height="83" rx="15" fill="#edf7f2" stroke="#d9ebe1"/>
+  <text x="480" y="742" class="h">⑥ 最终输出</text>
+  <text x="480" y="772" class="p">达成目标时交付答案或产物；受阻时报告进展、停止原因和待确认事项</text>
+  <g fill="none" stroke="#697788" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m475 159 5 7 5-7 M475 319l5 7 5-7 M219 375l-7 5 7 5 M339 526l5 7 5-7 M487 580l7 5-7 5 M825 747l-7 5 7 5 M630 698l5 7 5-7"/>
+  </g>
+  <g fill="none" stroke="#356dc0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m224 222 7 5-7 5 M629 441l5-7 5 7"/>
+  </g>
+</svg>

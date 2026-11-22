@@ -100,7 +100,7 @@
               "type": "markdown",
               "state": {
                 "file": "智能体系统/Agent.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -355,6 +355,13 @@
   },
   "active": "64b8fcd39b660c99",
   "lastOpenFiles": [
+    "附件/Agent-能力组成.png",
+    "附件/Agent-定义组成.png",
+    "附件/Agent-能力组成.puml",
+    "附件/Agent-定义组成.puml",
+    "附件/Agent-运行时信息流.png",
+    "附件/Agent-运行时信息流.puml",
+    "附件/Agent-基本执行流程.svg",
     "附件/Agent-从决策到反馈.png",
     "附件/Agent-从决策到反馈.puml",
     "上下文与知识工程/RAG/RAG.md",
@@ -386,20 +393,13 @@
     "附件/RAG 知识工程-知识准备流程.puml",
     "附件/RAG 检索工程-检索回路.svg",
     "附件/RAG 评估与优化-评估闭环.svg",
-    "附件/RAG 评估与优化-评估闭环.puml",
     "附件/RAG 系统工程-请求运行流程.svg",
-    "附件/RAG 系统工程-请求运行流程.puml",
-    "附件/RAG 检索工程-检索回路.puml",
     "附件/RAG 证据组织与回答生成-证据流程.svg",
     "模型原理/后训练.md",
     "模型原理/Transformer.md",
     "附件/Agent-Harness-运行闭环.png",
-    "附件/规划与执行-反馈闭环.png",
-    "附件/工具调用-执行回路.png",
     "2026-11-21.md",
-    "附件/Transformer-原始架构.png",
     "skills/references/material-generation.md",
-    "附件/Agent-执行闭环.png",
     "产品与行业/模型与产品比较.md"
   ]
 }

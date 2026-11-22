@@ -1,0 +1,26 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName "PingFang SC"
+skinparam defaultFontSize 16
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam dpi 185
+skinparam ArrowColor #526C80
+skinparam rectangleBorderColor #93AABC
+skinparam rectangleBackgroundColor #F5F8FA
+skinparam nodesep 42
+skinparam ranksep 44
+rectangle "运行程序" as Runtime #E6F1FC
+rectangle "模型" as Model
+rectangle "工具" as Tool
+rectangle "任务状态" as State
+rectangle "长期记忆（可选）" as Memory
+Model -right-> Runtime : 答复或工具请求
+Runtime -left-> Model : 本轮上下文
+Runtime -right-> Tool : 获准的调用
+Tool -left-> Runtime : 结果或错误
+Runtime -down-> State : 记录进展
+State -up-> Runtime : 当前进展
+Memory -up-> Runtime : 取回的历史信息
+State -[hidden]right-> Memory
+@enduml

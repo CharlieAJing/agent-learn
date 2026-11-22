@@ -1,0 +1,21 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName "PingFang SC"
+skinparam defaultFontSize 17
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam dpi 165
+skinparam ArrowColor #526C80
+skinparam rectangleBorderColor #93AABC
+skinparam rectangleBackgroundColor #F5F8FA
+skinparam roundcorner 12
+skinparam nodesep 28
+skinparam ranksep 30
+rectangle "规划" as Plan
+rectangle "模型" as Model #E6F1FC
+rectangle "记忆" as Memory
+rectangle "工具" as Tools
+Model -left-> Plan : 拆解目标、调整步骤
+Memory -down-> Model : 提供相关记录
+Model -right-> Tools : 选择工具和参数
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName "PingFang SC"
+skinparam defaultFontSize 17
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam dpi 165
+skinparam ArrowColor #526C80
+skinparam rectangleBorderColor #93AABC
+skinparam rectangleBackgroundColor #F5F8FA
+skinparam roundcorner 12
+skinparam nodesep 28
+skinparam ranksep 30
+rectangle "Agent 定义" as Def #E6F1FC
+rectangle "模型\n理解与决策" as Model
+rectangle "指令\n职责与规则" as Instructions
+rectangle "工具\n可调用的操作" as Tools
+Def -- Model
+Def -- Instructions
+Def -- Tools
+Model -[hidden]right-> Instructions
+Instructions -[hidden]right-> Tools
+@enduml
