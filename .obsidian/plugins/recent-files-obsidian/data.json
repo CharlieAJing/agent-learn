@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "概率与统计基础",
-      "path": "模型原理/概率与统计基础.md"
+      "basename": "Agent",
+      "path": "智能体系统/Agent.md"
     },
     {
       "basename": "RAG",
       "path": "上下文与知识工程/RAG/RAG.md"
+    },
+    {
+      "basename": "LLM",
+      "path": "模型原理/LLM.md"
+    },
+    {
+      "basename": "概率与统计基础",
+      "path": "模型原理/概率与统计基础.md"
     },
     {
       "basename": "RAG 知识工程",
@@ -45,10 +53,6 @@
       "path": "智能体系统/Agent Harness 工程.md"
     },
     {
-      "basename": "Agent",
-      "path": "智能体系统/Agent.md"
-    },
-    {
       "basename": "规划与执行",
       "path": "智能体系统/规划与执行.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "后训练",
       "path": "模型原理/后训练.md"
-    },
-    {
-      "basename": "LLM",
-      "path": "模型原理/LLM.md"
     },
     {
       "basename": "Transformer",
