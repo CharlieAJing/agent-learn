@@ -1,26 +1,27 @@
 @startuml
 !pragma layout smetana
+skinparam backgroundColor #FFFFFF
 skinparam defaultFontName "PingFang SC"
-skinparam defaultFontSize 16
-skinparam backgroundColor white
+skinparam defaultFontColor #21394B
+skinparam defaultTextAlignment center
+skinparam componentStyle rectangle
+skinparam componentBorderColor #A6BDCC
+skinparam componentBackgroundColor #F6F9FB
+skinparam ArrowColor #698698
+skinparam ArrowFontColor #486477
+skinparam ArrowFontSize 14
 skinparam shadowing false
-skinparam dpi 185
-skinparam ArrowColor #526C80
-skinparam rectangleBorderColor #93AABC
-skinparam rectangleBackgroundColor #F5F8FA
-skinparam nodesep 42
-skinparam ranksep 44
-rectangle "运行程序" as Runtime #E6F1FC
-rectangle "模型" as Model
-rectangle "工具" as Tool
-rectangle "任务状态" as State
-rectangle "长期记忆（可选）" as Memory
-Model -right-> Runtime : 答复或工具请求
-Runtime -left-> Model : 本轮上下文
-Runtime -right-> Tool : 获准的调用
-Tool -left-> Runtime : 结果或错误
-Runtime -down-> State : 记录进展
-State -up-> Runtime : 当前进展
-Memory -up-> Runtime : 取回的历史信息
-State -[hidden]right-> Memory
+skinparam roundcorner 14
+skinparam padding 10
+skinparam nodesep 34
+skinparam ranksep 34
+skinparam dpi 180
+
+component "<size:19><b>运行程序</b></size>\n组装上下文，检查调用权限\n维护任务状态，按需读取长期记忆" as Runtime #E6F1F8
+component "<size:19><b>模型</b></size>\n根据上下文决定下一步\n返回答复或工具请求" as Model
+component "<size:19><b>工具</b></size>\n按参数执行操作\n返回结果或错误" as Tool
+
+Runtime --> Model : 提供上下文
+Runtime --> Tool : 发起获准的调用
+Model -[hidden]right-> Tool
 @enduml

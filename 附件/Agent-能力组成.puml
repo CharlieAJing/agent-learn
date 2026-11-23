@@ -11,11 +11,13 @@ skinparam rectangleBackgroundColor #F5F8FA
 skinparam roundcorner 12
 skinparam nodesep 28
 skinparam ranksep 30
-rectangle "规划" as Plan
-rectangle "模型" as Model #E6F1FC
-rectangle "记忆" as Memory
-rectangle "工具" as Tools
-Model -left-> Plan : 拆解目标、调整步骤
-Memory -down-> Model : 提供相关记录
-Model -right-> Tools : 选择工具和参数
+rectangle "模型\n决策核心" as Model #E6F1FC
+rectangle "规划\n分解目标、调整步骤" as Plan
+rectangle "记忆\n保留与取回信息" as Memory
+rectangle "工具使用\n选择操作、利用结果" as ToolUse
+Model -- Plan
+Model -- Memory
+Model -- ToolUse
+Plan -[hidden]right-> Memory
+Memory -[hidden]right-> ToolUse
 @enduml
